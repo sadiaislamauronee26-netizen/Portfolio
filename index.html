@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ===== Meta & Page Settings ===== -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Sadia Islam Auronee — AI Enthusiast, English Literature student and creative tech explorer." />
+  <meta name="author" content="Sadia Islam Auronee" />
+  <title>Sadia Islam Auronee | AI Enthusiast &amp; Creative Tech Explorer</title>
+
+  <!-- ===== Google Fonts: Plus Jakarta Sans ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- ===== Main Stylesheet ===== -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- ============ NAVIGATION BAR ============ -->
+  <header class="navbar" id="navbar">
+    <nav class="nav container" aria-label="Main navigation">
+
+      <!-- Brand / Name -->
+      <a href="#home" class="nav__brand">
+        <span class="nav__logo" aria-hidden="true">SA</span>
+        <span class="nav__name">Sadia Islam Auronee</span>
+      </a>
+
+      <!-- Primary nav links -->
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#tools" class="nav__link">AI Tools</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+
+      <!-- Right side quick / social links -->
+      <div class="nav__socials">
+        <a href="mailto:sadiaislamauronee26@gmail.com" class="nav__icon" aria-label="Email Sadia" title="Email">
+          <!-- envelope -->
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm8 7.4L4.8 7.2v10.6h14.4V7.2L12 12.4Zm0-1.6 7.2-4.6H4.8L12 10.8Z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" class="nav__icon" aria-label="LinkedIn profile" title="LinkedIn">
+          <!-- linkedin -->
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.94 8.5H4V20h2.94V8.5ZM5.47 4A1.7 1.7 0 1 0 5.47 7.4 1.7 1.7 0 0 0 5.47 4ZM20 13.6c0-3.2-1.7-4.7-4-4.7a3.5 3.5 0 0 0-3.1 1.7V8.5H10V20h2.94v-6.1c0-1.6.3-3.1 2.2-3.1 1.9 0 1.9 1.8 1.9 3.2V20H20v-6.4Z"/></svg>
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="nav__icon" aria-label="GitHub profile" title="GitHub">
+          <!-- github -->
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.36 1.09 2.94.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.5 9.5 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.7-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+        </a>
+        <a href="https://discord.com/" target="_blank" rel="noopener noreferrer" class="nav__icon" aria-label="Discord" title="Discord">
+          <!-- discord -->
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.3 5.3A16.4 16.4 0 0 0 15.2 4l-.2.4a15 15 0 0 1 3.6 1.3 12.6 12.6 0 0 0-9.2 0A15 15 0 0 1 13 4.4L12.8 4a16.4 16.4 0 0 0-4.1 1.3C6 9 5.3 12.6 5.6 16.2A16.6 16.6 0 0 0 10.5 19l.9-1.5a10.7 10.7 0 0 1-1.7-.8l.4-.3a11.8 11.8 0 0 0 10.8 0l.4.3a10.7 10.7 0 0 1-1.7.8l.9 1.5a16.6 16.6 0 0 0 4.9-2.8c.4-4.2-.6-7.8-2.6-10.9ZM9.7 14c-.9 0-1.6-.8-1.6-1.8s.7-1.8 1.6-1.8 1.6.8 1.6 1.8-.7 1.8-1.6 1.8Zm4.6 0c-.9 0-1.6-.8-1.6-1.8s.7-1.8 1.6-1.8 1.6.8 1.6 1.8-.7 1.8-1.6 1.8Z"/></svg>
+        </a>
+      </div>
+
+      <!-- Mobile menu toggle -->
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HERO SECTION ============ -->
+    <section class="hero" id="home">
+      <div class="container hero__grid">
+
+        <!-- Left column: intro & call-to-actions -->
+        <div class="hero__content">
+          <span class="badge badge--greeting">👋 Hello, I'm Sadia Islam Auronee</span>
+
+          <h1 class="hero__title">AI Enthusiast &amp; <span class="highlight">Creative Tech Explorer</span></h1>
+
+          <p class="hero__tagline">
+            Bridging the beauty of English literature with modern generative AI workflows.
+            Exploring prompt crafting, digital tools, and creative efficiency.
+          </p>
+
+          <!-- Clickable email pill -->
+          <a href="mailto:sadiaislamauronee26@gmail.com" class="hero__email">✉️ sadiaislamauronee26@gmail.com</a>
+
+          <!-- Action buttons -->
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn--primary">Contact Me</a>
+            <a href="#tools" class="btn btn--outline">Explore My Tools</a>
+          </div>
+        </div>
+
+        <!-- Right column: mascot showcase -->
+        <div class="hero__visual">
+          <div class="mascot">
+            <span class="mascot__glow" aria-hidden="true"></span>
+            <img src="assets/mascot.avif" alt="Sadia Islam Auronee Mascot" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ME SECTION ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__eyebrow">Get To Know Me</span>
+          <h2 class="section__title">About Me</h2>
+        </header>
+
+        <div class="about__grid">
+          <!-- Personal bio -->
+          <article class="card about__bio glass">
+            <h3>Sadia Islam Auronee</h3>
+            <p class="about__role">Honours 1st Year · Department of English · Govt Rajendra College</p>
+            <p>
+              I'm passionate about blending linguistic skills and creative writing with modern
+              technology. I love continuous digital learning, artificial intelligence tools,
+              computer productivity, and exploring new horizons where language meets innovation.
+            </p>
+          </article>
+
+          <!-- 3 highlight cards -->
+          <div class="about__highlights">
+            <article class="card glass hcard">
+              <span class="hcard__icon" aria-hidden="true">🎓</span>
+              <h4>English Literature &amp; Language</h4>
+              <p>Govt Rajendra College</p>
+            </article>
+
+            <article class="card glass hcard">
+              <span class="hcard__icon" aria-hidden="true">🤖</span>
+              <h4>AI Prompting &amp; Modern Workflows</h4>
+              <p>Research, writing &amp; assistant tools</p>
+            </article>
+
+            <article class="card glass hcard">
+              <span class="hcard__icon" aria-hidden="true">💡</span>
+              <h4>Curious Learner &amp; Digital Explorer</h4>
+              <p>Always discovering something new</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS SECTION ============ -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__eyebrow">What I Can Do</span>
+          <h2 class="section__title">Skills &amp; Digital Abilities</h2>
+        </header>
+
+        <div class="skills__grid">
+          <!-- Skill group 1 -->
+          <article class="card glass skill-group">
+            <h3><span aria-hidden="true">🖥️</span> Digital Fundamentals</h3>
+            <ul class="skill-list">
+              <li>Computer Operating Systems</li>
+              <li>Google Workspace <small>(Docs, Sheets, Slides)</small></li>
+              <li>Cloud File Management</li>
+              <li>Internet Research</li>
+            </ul>
+          </article>
+
+          <!-- Skill group 2 -->
+          <article class="card glass skill-group">
+            <h3><span aria-hidden="true">🎨</span> Creative &amp; Tech Productivity</h3>
+            <ul class="skill-list">
+              <li>Content Structuring</li>
+              <li>Visual Design Fundamentals</li>
+              <li>Presentation Crafting</li>
+              <li>Digital Organization</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ AI TOOLS SECTION ============ -->
+    <section class="section" id="tools">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__eyebrow">My AI Toolkit</span>
+          <h2 class="section__title">AI Tools Showcase</h2>
+        </header>
+
+        <div class="tools__grid">
+          <article class="card glass tool">
+            <span class="tool__icon" aria-hidden="true">💬</span>
+            <h3>Generative AI &amp; Chat</h3>
+            <p>ChatGPT, Claude, Google Gemini — used for conversational search, research, and writing aids.</p>
+            <ul class="tool__tags">
+              <li>ChatGPT</li><li>Claude</li><li>Gemini</li>
+            </ul>
+          </article>
+
+          <article class="card glass tool">
+            <span class="tool__icon" aria-hidden="true">🖼️</span>
+            <h3>AI Art &amp; Visual Creation</h3>
+            <p>Midjourney prompt concepts, Canva AI, and image generation tools for creative visuals.</p>
+            <ul class="tool__tags">
+              <li>Midjourney</li><li>Canva AI</li><li>Image Gen</li>
+            </ul>
+          </article>
+
+          <article class="card glass tool">
+            <span class="tool__icon" aria-hidden="true">⚡</span>
+            <h3>Smart Productivity</h3>
+            <p>Notion AI, automated study workflows, and smart digital assistants that save time.</p>
+            <ul class="tool__tags">
+              <li>Notion AI</li><li>Automation</li><li>Assistants</li>
+            </ul>
+          </article>
+
+          <article class="card glass tool">
+            <span class="tool__icon" aria-hidden="true">🎯</span>
+            <h3>Prompt Engineering</h3>
+            <p>Crafting clear, context-aware prompts that consistently produce accurate, useful AI output.</p>
+            <ul class="tool__tags">
+              <li>Context</li><li>Clarity</li><li>Iteration</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS SECTION ============ -->
+    <section class="section section--alt" id="projects">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__eyebrow">Selected Work</span>
+          <h2 class="section__title">Projects &amp; Explorations</h2>
+        </header>
+
+        <div class="projects__grid">
+          <article class="card glass project">
+            <span class="project__num" aria-hidden="true">01</span>
+            <h3>Creative AI &amp; Literature Hub</h3>
+            <p>Exploring AI applications in literary analysis, reading summaries, and creative essay writing.</p>
+            <span class="project__tag">AI · Literature</span>
+          </article>
+
+          <article class="card glass project">
+            <span class="project__num" aria-hidden="true">02</span>
+            <h3>Visual Storytelling &amp; Character Design</h3>
+            <p>Experimenting with character prompts and digital aesthetics for creative mascots.</p>
+            <span class="project__tag">Visual · Prompts</span>
+          </article>
+
+          <article class="card glass project">
+            <span class="project__num" aria-hidden="true">03</span>
+            <h3>Digital Productivity System</h3>
+            <p>Structuring academic study schedules, notes, and resources using modern productivity suites.</p>
+            <span class="project__tag">Productivity · Study</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT SECTION ============ -->
+    <section class="section" id="contact">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__eyebrow">Let's Connect</span>
+          <h2 class="section__title">Contact Me</h2>
+        </header>
+
+        <div class="contact__grid">
+          <!-- Direct email highlight -->
+          <aside class="card glass contact__email-card">
+            <span class="contact__emoji" aria-hidden="true">📬</span>
+            <h3>Direct Email</h3>
+            <a href="mailto:sadiaislamauronee26@gmail.com" class="contact__email">sadiaislamauronee26@gmail.com</a>
+            <a href="mailto:sadiaislamauronee26@gmail.com" class="btn btn--primary">Send Direct Email</a>
+          </aside>
+
+          <!-- Contact form -->
+          <form class="card glass contact__form" id="contact-form" novalidate>
+            <div class="form__row">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required />
+            </div>
+
+            <div class="form__row">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            </div>
+
+            <div class="form__row">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="What is this about?" required />
+            </div>
+
+            <div class="form__row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--block">Send Message</button>
+            <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__brand">Sadia Islam Auronee</p>
+
+      <ul class="footer__socials">
+        <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://discord.com/" target="_blank" rel="noopener noreferrer">Discord</a></li>
+        <li><a href="mailto:sadiaislamauronee26@gmail.com">Email</a></li>
+      </ul>
+
+      <p class="footer__copy">© 2026 Sadia Islam Auronee. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back-to-top button -->
+  <button class="to-top" id="to-top" aria-label="Back to top">↑</button>
+
+  <!-- Main Script -->
+  <script src="script.js"></script>
+</body>
+</html>
